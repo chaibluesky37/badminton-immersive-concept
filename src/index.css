@@ -438,12 +438,19 @@ body.lenis-scrolling {
   letter-spacing: -0.02em;
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.65rem;
 }
 
 .logo span {
-  color: var(--primary);
-  text-shadow: 0 0 10px var(--primary-glow);
+  color: #0066ff;
+  text-shadow: 0 0 10px rgba(0, 102, 255, 0.35);
+}
+
+.logo-svg {
+  width: 28px;
+  height: auto;
+  fill: #0066ff;
+  filter: drop-shadow(0 0 8px rgba(0, 102, 255, 0.45));
 }
 
 .nav-links {
